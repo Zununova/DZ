@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = genereteRandomAge();
-        System.out.println(vod (a,20));
-        System.out.println(vod(a,-40));
-        System.out.println(vod(a,45));
-        System.out.println(vod(a,10));
-        System.out.println(vod (a,0));
+        System.out.println(vod (genereteRandomAge(),20));
+        System.out.println(vod(genereteRandomAge(),-40));
+        System.out.println(vod(genereteRandomAge(),45));
+        System.out.println(vod(genereteRandomAge(),10));
+        System.out.println(vod (genereteRandomAge(),0));
     }
     public static int genereteRandomAge(){
         int age = (int) (Math.random()*100);
